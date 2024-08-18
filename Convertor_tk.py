@@ -1,9 +1,3 @@
-# entry.get()
-
-# byte = gb * 1073741824
-
-# my_label.config(text = my_text)
-
 import tkinter as tk
 import pyperclip 
 
@@ -15,8 +9,6 @@ root.configure(background= "#DCD0FE")
 
 
 def change():
-  
-  global entry
 
   conversão = int(entry.get())
 
